@@ -1,3 +1,80 @@
-h1{
-    color: aqua;
+body{
+    background-color: #08080A;
+    font-family: 'Outfit', sans-serif;
 }
+
+/* Paradise Logo  */
+.logo-wrapper{
+    margin-right: 117px;
+}
+.paradise-logo{
+    background: linear-gradient(94.33deg, #00886F 0.56%, #54C451 96.6%, #54C451 96.6%);
+    width: 47px;
+    height: 47px;
+    border-radius: 50px;
+    margin-right: 22px;
+}
+.logo-txt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+/* navbar  */
+.navbar{
+    margin-bottom: 79px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.nav-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    color: #FFFFFF;
+}
+.active{
+    font-weight: bold;
+    color: #59F095;
+}
+
+section.hero {
+    background-color: #0B0B17;
+    padding: 54px 0px 123px;
+}
+
+
+
+
+/* // X-Small devices (portrait phones, less than 576px) */
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    
+ }
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    
+ }

@@ -60,6 +60,16 @@ body{
     padding: 10px 20px;
 }
 
+/* fonts text  */
+h1{
+    
+}
+span{
+    background: linear-gradient(to right, #13F3C9 0%, #54C351 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 section.hero {
     background-color: #0B0B17;
     padding: 54px 0px 123px;

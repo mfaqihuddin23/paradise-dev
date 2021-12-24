@@ -45,6 +45,21 @@ body{
     color: #59F095;
 }
 
+/* button  */
+
+.btn-outline-primary {
+    color: #58EA92;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #13F3C9, #54C351);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #0B0B17 inset;
+}
+.btn{
+    border: 3px solid transparent;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
 section.hero {
     background-color: #0B0B17;
     padding: 54px 0px 123px;

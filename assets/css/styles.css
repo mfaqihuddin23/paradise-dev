@@ -226,6 +226,9 @@ section.code-preview{
 section.wallet-payment{
     padding: 108px 0px;
 }
+section.wallet-payment ul{
+    margin-left: -18px;
+}
 .li-1{
     list-style-image: url(../images/bullet-list-1.svg);
     padding-left: 30px;
@@ -251,6 +254,38 @@ section.wallet-payment{
 section.cta-signup{
     background: #381B45;
     padding: 55px 0px;
+}
+
+/* section any platform  */
+section.any-platform{
+    padding: 179px 0px 155px;
+}
+section.any-platform h2{
+    margin-bottom: 80px;
+}
+section.any-platform h4{
+    margin-left: -30px;
+}
+section.any-platform li{
+    list-style-image: url('../images/bullet-list-6.svg');
+    padding-left: 30px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    color: #C9C9C9;
+    margin-bottom: 20px;
+}
+.title-wrap{
+    margin-bottom: 40px;
+}
+.orn-title{
+    background: linear-gradient(90deg, #065353 0%, rgba(6, 83, 83, 0) 102.39%);
+    border-radius: 2px;
+    width: 89px;
+    height: 58px;
 }
 
 

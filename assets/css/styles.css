@@ -288,6 +288,22 @@ section.any-platform li{
     height: 58px;
 }
 
+/* section getting built  */
+section.getting-built h2{
+    margin-bottom: 63px;
+}
+section.getting-built p{
+    color: #C9C9C9;
+}
+.built-wrap{
+    background: linear-gradient(180deg, #065353 0%, #065353 100%);
+    border-radius: 10px;
+    padding: 25px 18px;
+    height: 100%;
+    max-width: 275px;
+}
+
+
 
 /* // X-Small devices (portrait phones, less than 576px) */
 /* // Small devices (landscape phones, 576px and up) */

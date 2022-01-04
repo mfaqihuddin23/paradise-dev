@@ -334,6 +334,21 @@ section.getting-built p{
     margin-top: -170px;
 }
 
+/* section foooter */
+section.footer{
+    margin-top: 169px;
+    padding: 70px 0px;
+}
+section.footer h5{
+    color: #C9C9C9;
+}
+section.footer p{
+    color: #C9C9C9;
+}
+.label-txt{
+    margin: 0px 15px;
+}
+
 
 
 /* // X-Small devices (portrait phones, less than 576px) */

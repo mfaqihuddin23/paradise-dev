@@ -1,8 +1,12 @@
-<svg width="230" height="207" viewBox="0 0 230 207" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="207" height="207" viewBox="0 0 207 207" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="31.5" y="48" width="131" height="131" rx="28" fill="#065353"/>
 <g filter="url(#filter0_f_362_460)">
 <circle cx="103.55" cy="103.899" r="49.95" fill="#58FFC3" fill-opacity="0.31"/>
 </g>
+<mask id="mask0_362_460" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="31" y="48" width="132" height="131">
+<rect x="31.5" y="48" width="131" height="131" rx="28" fill="#065353"/>
+</mask>
+<g mask="url(#mask0_362_460)">
 <path d="M98.0999 160.9C125.659 160.9 148 138.559 148 111C148 83.4406 125.659 61.0996 98.0999 61.0996C70.5409 61.0996 48.2 83.4406 48.2 111C48.2 138.559 70.5409 160.9 98.0999 160.9Z" fill="url(#paint0_linear_362_460)"/>
 <path d="M40.2999 103.9C42.5999 84.7998 54.1999 68.5998 70.2999 59.7998" stroke="white" stroke-opacity="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
 <path d="M156.3 111C156.3 134 142.9 154 123.5 163.4" stroke="white" stroke-opacity="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
@@ -18,6 +22,7 @@
 <path d="M59.7 90.9C59.7 90.8 65.7 95.5 65.7 95.5L61.8 101.1" stroke="white" stroke-opacity="0.5" stroke-miterlimit="10" stroke-linecap="round"/>
 <path d="M118.6 80.6C118.7 78.3 117.6 75.5 114.6 75.5C111.6 75.5 109.9 78.3 109.9 80.4C109.9 83.8 112.496 88.0035 113.496 90.1035C113.796 90.8035 114.796 90.8035 115.096 90.2035C116.596 87.9035 118.5 83 118.6 80.6Z" fill="url(#paint4_linear_362_460)"/>
 <path d="M114.253 82.3913C115.369 82.3913 116.273 81.4867 116.273 80.3709C116.273 79.2551 115.369 78.3506 114.253 78.3506C113.137 78.3506 112.233 79.2551 112.233 80.3709C112.233 81.4867 113.137 82.3913 114.253 82.3913Z" fill="white" fill-opacity="0.5"/>
+</g>
 <defs>
 <filter id="filter0_f_362_460" x="0.600037" y="0.949219" width="205.9" height="205.9" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>

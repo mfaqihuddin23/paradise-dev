@@ -115,6 +115,14 @@ h2{
     /* identical to box height, or 150% */
     color: #FFFFFF;
 }
+h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    /* or 150% */
+    color: #FFFFFF;
+}
 h4{
     font-style: normal;
     font-weight: 600;
@@ -241,7 +249,8 @@ section.wallet-payment{
 
 /* section cta-signup  */
 section.cta-signup{
-    
+    background: #381B45;
+    padding: 55px 0px;
 }
 
 

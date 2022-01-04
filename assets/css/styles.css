@@ -51,13 +51,36 @@ body{
 
 
 /* button  */
-
+.icon-button{
+    margin-left: 10px;
+}
+.btn-primary{
+    font-weight: 600;
+    padding: 15px 20px !important;
+    background: #59F095;
+    border-radius: 10px !important;
+    color: #005B3A;
+    border-color: transparent;
+}
+.btn-primary:hover{
+    font-weight: 600;
+    padding: 15px 20px!important;
+    background: #59F095;
+    border-radius: 10px!important;
+    color: #005B3A;
+    border-color: transparent;
+}
 .btn-outline-primary {
+    font-weight: 500;
     color: #58EA92;
     background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #13F3C9, #54C351);
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 2px 1000px 1px #0B0B17 inset;
+
+    border: 3px solid transparent;
+    border-radius: 8px;
+    padding: 10px 20px;
 }
 .btn-outline-primary:hover {
     color: #58EA92;
@@ -65,11 +88,14 @@ body{
     background-origin: border-box;
     background-clip: content-box, border-box;
     box-shadow: 2px 1000px 1px #0B0B17 inset;
+    border-color: transparent;
 }
 .btn{
-    border: 3px solid transparent;
-    border-radius: 8px;
-    padding: 10px 20px;
+    
+    font-style: normal;
+
+    font-size: 16px;
+    line-height: 30px;
 }
 
 /* fonts text  */
@@ -107,6 +133,9 @@ h5{
 }
 
 p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
     line-height: 24px;
     /* or 150% */
     color: #FFFFFF;
@@ -151,7 +180,7 @@ section.hero {
 
 /* secction apis  */
 section.apis {
-    padding: 110px 0px 120px;
+    padding: 120px 0px;
 }
 .graph-wrap{
     padding: 95px 0px 117px;
@@ -172,7 +201,48 @@ section.apis {
     margin-left: 26px;
 }
 
+/* section code preview */
+section.code-preview{
+    background: #112626;
+    padding: 110px 0px;
+}
+.tab-preview{
+    margin: 40px 0px 110px;
+    padding: 75px 65px;
+    background: linear-gradient(180deg, #065353 0%, #065353 100%);
+    box-shadow: 0px 51px 44px rgba(19, 48, 49, 0.55);
+    border-radius: 20px;
+}
 
+/* section wallet payment  */
+section.wallet-payment{
+    padding: 108px 0px;
+}
+.li-1{
+    list-style-image: url(../images/bullet-list-1.svg);
+    padding-left: 30px;
+}
+.li-2{
+    list-style-image: url(../images/bullet-list-2.svg);
+    padding-left: 30px;
+}
+.li-3{
+    list-style-image: url(../images/bullet-list-3.svg);
+    padding-left: 30px;
+}
+.li-4{
+    list-style-image: url(../images/bullet-list-4.svg);
+    padding-left: 30px;
+}
+.li-5{
+    list-style-image: url(../images/bullet-list-5.svg);
+    padding-left: 30px;
+}
+
+/* section cta-signup  */
+section.cta-signup{
+    
+}
 
 
 /* // X-Small devices (portrait phones, less than 576px) */

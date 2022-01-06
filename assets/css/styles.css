@@ -253,21 +253,8 @@ section.code-preview{
 section.code-preview .nav-link:hover{
     color: #FFFFFF;
 }
-.CodeMirror{
-    background: none;
-    /* Font-family: Fira Code;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 32px;
-    or 178% */
-}
-.CodeMirror-gutter{
-    display: none;
-}
-.CodeMirror-gutters{
-    border-right: none;
-}
+
+
 .tab-pane.active{
     font-weight: 400 !important;
     color: initial !important;
@@ -279,9 +266,9 @@ section.code-preview .nav-link:hover{
 
     padding: 50px 40px;
 }
-.txt-code{
+.mytextarea{
     width: 100%;
-    height: 332px;
+    
 }
 
 /* section wallet payment  */

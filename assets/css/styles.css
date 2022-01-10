@@ -356,14 +356,14 @@ section.getting-built p{
     border-radius: 10px;
     padding: 25px 18px;
     height: 100%;
-    max-width: 275px;
+    /* max-width: 275px; */
 }
 .wrap2{
     padding: 10px 18px;
-    max-width: 210px;
+    /* max-width: 210px; */
 }
 .row-paradise{
-    margin-top: 159px;
+    /* margin-top: 159px; */
     background: linear-gradient(180deg, rgba(6, 83, 83, 0) 0%, #065353 100%);
     border-radius: 20px;
     padding: 65px 0px;
@@ -374,7 +374,7 @@ section.getting-built p{
     background: linear-gradient(180deg, #065353 0%, #065353 100%);
     border-radius: 20px;
     padding: 70px 40px;
-    margin-top: -120px;
+    /* margin-top: -120px; */
 }
 .img-about{
     margin-top: -170px;
@@ -382,7 +382,7 @@ section.getting-built p{
 
 /* section foooter */
 section.footer{
-    margin-top: 169px;
+    /* margin-top: 169px; */
     padding: 70px 0px;
 }
 section.footer h5{
@@ -393,6 +393,25 @@ section.footer p{
 }
 .label-txt{
     margin: 0px 15px;
+}
+section.footer .paradise-logo{
+    background: linear-gradient(94.33deg, #00886F 0.56%, #54C451 96.6%, #54C451 96.6%);
+    width: 47px;
+    /* width: 35px; */
+    height: 47px;
+    /* height: 35px; */
+    border-radius: 50px;
+    margin-right: 22px;
+}
+section.footer .logo-txt{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    /* font-size: 16px; */
+    line-height: 125%;
+    /* identical to box height, or 125% */
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
 }
 
 

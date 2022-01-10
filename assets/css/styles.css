@@ -120,8 +120,8 @@ h2{
 h3{
     font-style: normal;
     font-weight: 600;
-    font-size: 40px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 150%;
     /* or 150% */
     color: #FFFFFF;
 }
@@ -136,7 +136,7 @@ h4{
 h5{
     font-style: normal;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 24px;
     /* identical to box height, or 120% */
     color: #FFFFFF;
@@ -204,7 +204,7 @@ section.apis {
     margin-bottom: -60px;
 }
 .img-graphql{
-    width: 150%;
+    width: 100%;
 }
 .works-box{
     background: linear-gradient(103.33deg, #0A0A0F 0.3%, #1F3838 99.4%);
@@ -280,27 +280,27 @@ section.wallet-payment{
     padding: 108px 0px;
 }
 section.wallet-payment ul{
-    margin-left: -18px;
+    margin-left: -30px;
 }
 .li-1{
     list-style-image: url(../images/bullet-list-1.svg);
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .li-2{
     list-style-image: url(../images/bullet-list-2.svg);
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .li-3{
     list-style-image: url(../images/bullet-list-3.svg);
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .li-4{
     list-style-image: url(../images/bullet-list-4.svg);
-    padding-left: 30px;
+    padding-left: 20px;
 }
 .li-5{
     list-style-image: url(../images/bullet-list-5.svg);
-    padding-left: 30px;
+    padding-left: 20px;
 }
 
 /* section cta-signup  */
@@ -311,10 +311,10 @@ section.cta-signup{
 
 /* section any platform  */
 section.any-platform{
-    padding: 179px 0px 155px;
+    padding: 56px 0px;
 }
 section.any-platform h2{
-    margin-bottom: 80px;
+    margin-bottom: 35px;
 }
 section.any-platform h4{
     margin-left: -30px;
@@ -432,23 +432,13 @@ section.footer p{
         font-size: 50px;
     }
     h3{
-        font-style: normal;
-        font-weight: 600;
         font-size: 40px;
-        line-height: 60px;
-        /* or 150% */
-        color: #FFFFFF;
     }
     h4{
         font-size: 30px;
     }
     h5{
-        font-style: normal;
-        font-weight: 600;
         font-size: 20px;
-        line-height: 24px;
-        /* identical to box height, or 120% */
-        color: #FFFFFF;
     }
     
     p{
@@ -537,6 +527,14 @@ section.footer p{
     }
     .graphql{
         margin-bottom: -140px;
+    }
+
+    /* section any platform  */
+    section.any-platform{
+        padding: 179px 0px 155px;
+    }
+    section.any-platform h2{
+        margin-bottom: 80px;
     }
  }
 

@@ -272,7 +272,10 @@ section.code-preview .nav-link:hover{
 }
 .mytextarea{
     width: 100%;
-    
+}
+.cm-s-monokai.CodeMirror {
+    background: transparent;
+    /* color: #f8f8f2; */
 }
 
 /* section wallet payment  */

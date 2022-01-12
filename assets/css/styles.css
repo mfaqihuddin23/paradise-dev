@@ -326,6 +326,7 @@ section.any-platform h4{
 section.any-platform li{
     list-style-image: url('../images/bullet-list-6.svg');
     padding-left: 30px;
+    max-width: 525px;
 
     font-style: normal;
     font-weight: normal;
@@ -563,7 +564,7 @@ section.footer .logo-txt{
 
     /* section wallet payment */
     .li-1{
-        list-style-image: url(../images/bullet-list-1-m.svg);
+        list-style-image: url(../images/bullet-list-1.svg);
     }
     .li-2{
         list-style-image: url(../images/bullet-list-2.svg);

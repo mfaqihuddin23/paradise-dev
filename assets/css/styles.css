@@ -279,27 +279,28 @@ section.code-preview .nav-link:hover{
 section.wallet-payment{
     padding: 108px 0px;
 }
+
 section.wallet-payment ul{
     margin-left: -30px;
 }
 .li-1{
-    list-style-image: url(../images/bullet-list-1.svg);
-    padding-left: 20px;
+    list-style-image: url(../images/bullet-list-1-m.svg);
+    padding-left: 20px; 
 }
 .li-2{
-    list-style-image: url(../images/bullet-list-2.svg);
+    list-style-image: url(../images/bullet-list-2-m.svg);
     padding-left: 20px;
 }
 .li-3{
-    list-style-image: url(../images/bullet-list-3.svg);
+    list-style-image: url(../images/bullet-list-3-m.svg);
     padding-left: 20px;
 }
 .li-4{
-    list-style-image: url(../images/bullet-list-4.svg);
+    list-style-image: url(../images/bullet-list-4-m.svg);
     padding-left: 20px;
 }
 .li-5{
-    list-style-image: url(../images/bullet-list-5.svg);
+    list-style-image: url(../images/bullet-list-5-m.svg);
     padding-left: 20px;
 }
 
@@ -546,6 +547,32 @@ section.footer .logo-txt{
     }
     .graphql{
         margin-bottom: -140px;
+    }
+    .txt-works{
+        margin-left: 26px;
+        margin-top: 0px;
+    }
+    
+    /* section getting built  */
+    .row-paradise{
+        margin-top: 159px;
+    }
+
+    /* section wallet payment */
+    .li-1{
+        list-style-image: url(../images/bullet-list-1-m.svg);
+    }
+    .li-2{
+        list-style-image: url(../images/bullet-list-2.svg);
+    }
+    .li-3{
+        list-style-image: url(../images/bullet-list-3.svg);
+    }
+    .li-4{
+        list-style-image: url(../images/bullet-list-4.svg);
+    }
+    .li-5{
+        list-style-image: url(../images/bullet-list-5.svg);
     }
 
     /* section any platform  */
